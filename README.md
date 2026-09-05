@@ -39,3 +39,12 @@ IronLog now changes prescriptions automatically when you change weeks.
 - Main lifts, accessory work, core work, carries, Assault Bike intervals, sled work, Zone 2 elliptical, and Day 5 conditioning all change by week.
 - Exercise selection remains mostly consistent so strength can be compared across the full cycle.
 - Existing local workout logs are preserved because the storage key remains unchanged.
+
+## v3.4 — set-by-set logging + smart targets
+- Every prescribed strength set now has its own weight/reps entry.
+- Carries log weight + yards per set; Suitcase Carry also logs L/R per set.
+- Previous week's individual sets are shown above the current exercise.
+- Each exercise displays a next-target recommendation.
+- Rep-range progression: when all logged sets reach the top of the range with back tolerance 0–2, the app suggests a small load increase.
+- If back tolerance reaches 3+, the app recommends holding/reducing load rather than progressing.
+- Existing older single-entry logs are migrated into Set 1 when opened.
