@@ -13,3 +13,7 @@ Full 12-week mobile-first training logger.
 - Local browser storage
 
 Replace the four existing site files in the Ironlog-v3 GitHub repository with these files.
+
+## v3.1.1 fix
+- Fixed Back button inside workouts on iPhone/Safari.
+- Removed reliance on browser-generated globals for element IDs.
